@@ -5,7 +5,7 @@
 {% block body %}
     <h1>Create new Pen</h1>
 
-    {{ include('pen_crud/_form.html.twig') }}
+    {{ include('admin/pen/_form.html.twig') }}
 
-    <a href="{{ path('app_pen_crud_index') }}">back to list</a>
+    <a href="{{ path('app_admin_pen_index') }}">back to list</a>
 {% endblock %}

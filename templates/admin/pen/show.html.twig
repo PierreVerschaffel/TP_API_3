@@ -30,9 +30,9 @@
         </tbody>
     </table>
 
-    <a href="{{ path('app_pen_crud_index') }}">back to list</a>
+    <a href="{{ path('app_admin_pen_index') }}">back to list</a>
 
-    <a href="{{ path('app_pen_crud_edit', {'id': pen.id}) }}">edit</a>
+    <a href="{{ path('app_admin_pen_edit', {'id': pen.id}) }}">edit</a>
 
-    {{ include('pen_crud/_delete_form.html.twig') }}
+    {{ include('admin/pen/_delete_form.html.twig') }}
 {% endblock %}
